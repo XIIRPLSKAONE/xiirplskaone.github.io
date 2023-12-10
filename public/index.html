@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XII-RPL - SKAONE</title>
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/font.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="bg-gray-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-32 flex justify-between">
+        <div class="flex items-center">
+          <img src="" alt="" />
+          <h1 class="font-bold text-blue-300 text-4xl">XII-RPL</h1>
+        </div>
+        <div class="flex items-center h-16">
+          <div class="hidden md:block">
+            <div class="ml-10 flex items-baseline space-x-4">
+              <a href="#" class="text-white hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+              <a href="about.html" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
+              <a href="#" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+            </div>
+          </div>
+          <div class="-mr-2 flex md:hidden">
+            <button
+              id="hamburger-button"
+              type="button"
+              class="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+            >
+              <span class="sr-only">Open main menu</span>
+              <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="mobile-menu" class="hidden">
+        <div class="px-2 pt-2 pb-3 space-y-1">
+          <a href="#" class="text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
+          <a href="about.html" class="text-gray-300 block px-3 py-2 rounded-md text-base font-medium">About</a>
+          <a href="#" class="text-gray-300 block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <!-- close navbar -->
+
+    <!-- header -->
+    <section class="flex flex-col bg-teal-100 md:flex-row lg:px-40 px-2 md:justify-between py-7">
+      <!-- kiri header -->
+      <div class="flex flex-col justify-center">
+        <h2 class="text-center text-5xl text md:text-left md:text-7xl text-blue-950 teko lg:mr-64 drop-shadow-md md:mr-40">SELAMAT DATANG DI WEBSITE XII-RPL</h2>
+        <p class="text-center md:text-left lg:mr-80 md:mr-40 py-4 poppins text-sm">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi laudantium perferendis ab ratione error iste libero tempore et, iure quaerat! Ut quas laudantium veniam?
+        </p>
+        <button class="border border-red-800 w-fit px-4 py-1 mt-2 rounded-md bg-red-800 text-white font-semibold mx-auto mb-4 md:mx-0 flex">
+          Kunjungi
+          <img src="assets/icon-arrowlong-right.svg" class="ml-4 self-center" alt="" />
+        </button>
+      </div>
+      <!-- tutup kiri header -->
+      <!-- kanan header -->
+      <div><img src="assets/shape-diagram.png" alt="" class="rounded-md mx-auto max-w-xs items-center" /></div>
+      <!-- tutup kanan header -->
+    </section>
+    <!-- close header -->
+
+    <!-- section populasi -->
+    <section class="bg-red-800 text-slate-50 px-2 py-7 md:flex-row lg:px-40 md:justify-between">
+      <h2 class="text-4xl teko font-bold text-center drop-shadow-2xl pb-6">SISWA/I XII-RPL</h2>
+      <div class="grid grid-cols-1 justify-items-center md:grid-cols-3">
+        <div class="flex pb-8 md:pb-0">
+          <img src="assets/jumlah_siswa.png" alt="" />
+          <p class="self-center poppins font-semibold text-base ml-4">37 Siswa</p>
+        </div>
+        <div class="flex md:pb-0 pb-6">
+          <img src="assets/gender-pria-removebg-preview.png" alt="" />
+          <p class="self-center poppins font-semibold text-base ml-4">16 Siswa</p>
+        </div>
+        <div class="flex md:pb-0">
+          <img src="assets/gender-wanita-removebg-preview.png" alt="" />
+          <p class="self-center poppins font-semibold text-base ml-4">8 Siswa</p>
+        </div>
+      </div>
+    </section>
+    <!-- close section populasi -->
+
+    <!-- content -->
+    <section class="px-4 py-7 md:flex-row lg:px-40" style="background-color: #f5f5fa">
+      <h2 class="text-4xl teko font-bold text-center drop-shadow-2xl pb-6">
+        STRUKTUR <span class="before:block before:absolute before:-inset-1 before:bg-red-500 before:rounded-md relative inline-block"><span class="relative text-white">KELAS</span></span>
+      </h2>
+      <div class="flex flex-col md:grid md:grid-cols-2 md:items-baseline md:gap-4">
+        <div class="col-span-2 shadow-xl rounded-xl md:justify-self-center py-4 px-10">
+          <h4 class="text-center mb-4 poppins text-xl font-bold">WALI <span class="underline decoration-sky-500">KELAS</span></h4>
+          <div class="flex gap-4">
+            <div class="w-24 h-24 bg-neutral-500 border border-blue-500 rounded-md"></div>
+            <div class="flex flex-col justify-center">
+              <p class="poppins text-base">Suriany Sukardi</p>
+              <p class="poppins text-base">18 Maret 1991</p>
+            </div>
+          </div>
+        </div>
+        <div class="shadow-xl rounded-xl md:justify-self-stretch py-4 px-10 mt-8">
+          <h4 class="text-center mb-4 poppins text-xl font-bold">KETUA <span class="underline decoration-sky-500">KELAS</span></h4>
+          <div class="flex gap-4">
+            <div class="w-24 h-24 bg-neutral-500 border border-blue-500 rounded-md"></div>
+            <div class="flex flex-col justify-center">
+              <p class="poppins text-base">Wahab Amiruddin</p>
+              <p class="poppins text-base">18 Maret 1991</p>
+            </div>
+          </div>
+        </div>
+        <div class="shadow-xl rounded-xl md:justify-self-stretch py-4 px-10 mt-8">
+          <h4 class="text-center mb-4 poppins text-xl font-bold">WAKIL KETUA <span class="underline decoration-sky-500">KELAS</span></h4>
+          <div class="flex gap-4">
+            <div class="w-24 h-24 bg-neutral-500 border border-blue-500 rounded-md"></div>
+            <div class="flex flex-col justify-center">
+              <p class="poppins text-base">Muh Faathir Arham R.</p>
+              <p class="poppins text-base">18 Maret 1991</p>
+            </div>
+          </div>
+        </div>
+        <div class="shadow-xl rounded-xl md:justify-self-stretch py-4 px-10 mt-8">
+          <h4 class="text-center mb-4 poppins text-xl font-bold">SEKRE<span class="underline decoration-sky-500">TARIS</span></h4>
+          <div class="flex gap-4">
+            <div class="w-24 h-24 bg-neutral-500 border border-blue-500 rounded-md"></div>
+            <div class="flex flex-col justify-center">
+              <p class="poppins text-base">Melisa Difayanti</p>
+              <p class="poppins text-base">18 Maret 1991</p>
+            </div>
+          </div>
+        </div>
+        <div class="shadow-xl rounded-xl md:justify-self-stretch py-4 px-10 mt-8">
+          <h4 class="text-center mb-4 poppins text-xl font-bold">BENDA<span class="underline decoration-sky-500">HARA</span></h4>
+          <div class="flex gap-4">
+            <div class="w-24 h-24 bg-neutral-500 border border-blue-500 rounded-md"></div>
+            <div class="flex flex-col justify-center">
+              <p class="poppins text-base">Aulia Ramdani</p>
+              <p class="poppins text-base">18 Maret 1991</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- close content -->
+
+    <!-- footer -->
+    <footer class="bg-red-800 text-zinc-100 px-4 pt-7 pb-4 lg:px-40">
+      <div class="flex flex-col md:grid md:grid-cols-4 md:gap-8 mb-4">
+        <div class="mb-8 md:mb-0">
+          <h2 class="md:mb-8 mb-4">XII-RPL</h2>
+          <p class="text-xs poppins">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illo, dignissimos distinctio hic earum numquam?</p>
+        </div>
+
+        <div class="mb-8 md:mb-0">
+          <h6 class="md:mb-8 mb-4 text-base font-semibold poppins">Tentang Kami</h6>
+          <ul>
+            <li class="text-xs poppins mb-1"><a href="">Ketua Jurusan</a></li>
+            <li class="text-xs poppins mb-1"><a href="">Guru Produktif</a></li>
+            <li class="text-xs poppins"><a href="">Siswa/i</a></li>
+          </ul>
+        </div>
+
+        <div class="mb-8 md:mb-0">
+          <h6 class="md:mb-8 mb-4 text-base font-semibold poppins">Social Media</h6>
+          <ul>
+            <li class="text-xs poppins mb-1"><a href="">Instagram</a></li>
+            <li class="text-xs poppins mb-1"><a href="">Twitter</a></li>
+            <li class="text-xs poppins"><a href="">Threads</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h6 class="md:mb-8 mb-4 text-base font-semibold poppins">Contact</h6>
+          <ul>
+            <li class="text-xs poppins mb-1"><a href="">firstgenrpl@gmail.com</a></li>
+            <li class="text-xs poppins"><a href="">Whatsapp </a></li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <h6 class="text-center text-slate-300 drop-shadow-2xl font-semibold text-xs poppins mt-4">Created By Sukri Tri Maulana</h6>
+    </footer>
+    <!-- close footer  -->
+
+    <!-- script -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#hamburger-button").click(function () {
+          $("#mobile-menu").slideToggle();
+        });
+      });
+    </script>
+    <!-- close script -->
+  </body>
+</html>
